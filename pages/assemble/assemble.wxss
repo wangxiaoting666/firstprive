@@ -1,0 +1,171 @@
+.container {
+padding:20rpx 0;
+
+} 
+.topcont{
+  height: 100rpx;
+}
+/* pages/leftSwiperDel/index.wxss */
+view{
+    box-sizing: border-box;
+}
+.title{
+  margin: 15rpx;
+}
+.price{
+  margin-left: 15rpx;
+  margin-bottom: 30rpx;
+}
+
+.price span:first-child{
+   color: #464444;
+   font-size: 34rpx;
+}
+
+.price span:nth-child(2){
+   color: #fa0c04;
+   
+}
+.item-box{
+    width: 700rpx;
+    margin: 0 auto;
+    padding:40rpx 0;
+}
+
+.item{
+    position: relative;
+    border-top: 2rpx solid #eee;
+    height: 120rpx;
+    line-height: 120rpx;
+    overflow: hidden;
+     
+}
+
+.imgcont{
+
+}
+
+.imgcont .img{
+ width:174rpx;
+height:174rpx;
+vertical-align:middle;
+margin-right:16rpx;
+border-radius:50%;
+
+
+}
+
+
+.inner.txt{
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+    padding:0 10rpx;
+    transition: left 0.2s ease-in-out;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size:34rpx;
+    color: #464444;
+}
+
+.name{
+  margin-right:30rpx;
+}
+.item-icon{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+    margin-right: 16rpx;
+    
+    border-radius:50%;
+
+}
+
+.item-data{
+  float: right;
+  margin-right:5%;}
+
+.rankpace{
+  color: #fa0c04;
+}
+
+
+/* 右侧弹出界面 */
+.isRuleShow {
+  display: block;
+}
+
+.isRuleHide {
+  display: none;
+}
+.float {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  /* margin-top:80rpx; */
+}
+
+
+
+
+
+.iconuse {
+  margin-left: 15rpx;
+}
+
+.iconprice {
+  margin-left: 15rpx;
+}
+
+.animation-element {
+  width: 580rpx;
+  height: 1064rpx;
+   background-color: #ffffff; 
+  border: 1px solid #f3f0f0;
+  position: absolute;
+  right: -572rpx;
+}
+
+
+
+.useage {
+  height: 40rpx;
+}
+
+.useage li {
+  width: 177rpx;
+  margin: 12rpx 7rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #f3f0f0;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+}
+
+.buttom{
+  position: fixed;
+  bottom: 0;
+}
+.animation-reset{
+float: left;
+ line-height: 2;
+  width: 260rpx;
+  margin: 15rpx 12rpx;
+  border: 1px solid #f3f0f0;
+  text-align: center;
+}
+.animation-button{
+float: left;
+ line-height: 2;
+  width: 348rpx;
+  margin: 15rpx 12rpx;
+  border: 1px solid #f3f0f0;
+  text-align: center;
+}

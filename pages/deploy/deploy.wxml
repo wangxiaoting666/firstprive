@@ -1,0 +1,33 @@
+
+
+
+
+<view class='imgcont'>
+  <image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+<image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+<image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+<image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+</view>
+
+
+
+<!-- 功能列表 -->
+
+ <view wx:for="{{list}}"  wx:key="{{index}}"  class="item">
+     
+      <view  data-index="{{index}}" class="inner txt">
+     
+      <image class="item-icon" mode="widthFix" src="{{item.icon}}"></image>
+       <i> {{item.name}}</i>
+        <i>{{item.rank}}</i>
+      <span class="item-data">
+    
+       <i class="rankpace"> {{item.pace}}</i>
+       <i class="deployed">+</i>
+      </span>
+      
+      </view>
+    </view>
+
+
+
